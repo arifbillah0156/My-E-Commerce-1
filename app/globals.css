@@ -19,3 +19,20 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.NavText {
+  text-decoration: underline;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-underline-offset: 4px;
+}
+
+.NavText:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.NavTextDrop {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
